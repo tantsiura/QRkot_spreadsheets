@@ -4,7 +4,7 @@
 [![Alembic](https://img.shields.io/badge/-Alembic-464646?style=flat&logo=Alembic&logoColor=ffffff&color=043A6B)](https://pypi.org/project/alembic/)
 [![Pydantic](https://img.shields.io/badge/-Pydantic-464646?style=flat&logo=Pydantic&logoColor=ffffff&color=043A6B)](https://pypi.org/project/pydantic/)
 [![Asyncio](https://img.shields.io/badge/-Asyncio-464646?style=flat&logo=Asyncio&logoColor=ffffff&color=043A6B)](https://docs.python.org/3/library/asyncio.html)
-[![Aiogoogle](https://img.shields.io/badge/-Asyncio-464646?style=flat&logo=Asyncio&logoColor=ffffff&color=043A6B)](https://aiogoogle.readthedocs.io/en/latest/index.html)
+[![Aiogoogle](https://img.shields.io/badge/-Aiogoogle-464646?style=flat&logo=Asyncio&logoColor=ffffff&color=043A6B)](https://aiogoogle.readthedocs.io/en/latest/index.html)
 
 # QRkot_spreadsheets | App for Сat сharity fund
 
