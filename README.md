@@ -46,6 +46,19 @@ DATABASE_URL=sqlite+aiosqlite:///./<название базы данных>.db
 SECRET=<секретное слово>
 FIRST_SUPERUSER_EMAIL=<email суперюзера>
 FIRST_SUPERUSER_PASSWORD=<пароль суперюзера>
+
+EMAIL = 'test@gmail.com'
+
+TYPE ='service_account'
+PROJECT_ID = <ваш project_id>
+PRIVATE_KEY_ID = <ваш private_key_id>
+PRIVATE_KEY = <ваш private_key>
+CLIENT_EMAIL = <ваш client_email>
+CLIENT_ID = <ваш client_id>
+AUTH_URI = <ваш auth_uri>
+TOKEN_URI = <ваш auth_uri>
+AUTH_PROVIDER_X509_CERT_URL = <ваш auth_provider_X509_cert_url>
+CLIENT_X509_CERT_URL = <ваш client_X509_cert_url>
 ```
 4. Запустите проект, примените миграции для создания базы данных SQLite:
 ```
