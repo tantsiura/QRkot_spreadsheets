@@ -1,8 +1,8 @@
-"""1st migration
+"""qrkot_spreadsheets
 
-Revision ID: 7a7233cca313
-Revises: 
-Create Date: 2023-12-21 17:28:14.880969
+Revision ID: 655ea36671ec
+Revises: 7a7233cca313
+Create Date: 2023-12-26 16:17:41.447643
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '7a7233cca313'
-down_revision = None
+revision = '655ea36671ec'
+down_revision = '7a7233cca313'
 branch_labels = None
 depends_on = None
 
