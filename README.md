@@ -47,7 +47,7 @@ SECRET=<секретное слово>
 FIRST_SUPERUSER_EMAIL=<email суперюзера>
 FIRST_SUPERUSER_PASSWORD=<пароль суперюзера>
 
-EMAIL = 'test@gmail.com'
+EMAIL = <ваш email>
 
 TYPE ='service_account'
 PROJECT_ID = <ваш project_id>
