@@ -13,5 +13,9 @@ app.include_router(main_router)
 
 
 @app.on_event('startup')
-async def startup():
+async def startup_event():
     await create_first_superuser()
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
