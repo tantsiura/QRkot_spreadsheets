@@ -3,9 +3,9 @@ from typing import Dict, List
 
 from aiogoogle import Aiogoogle
 
-from app.constants import G_FORMAT, G_VERSION_DRIVE, G_VERSION_SHEETS
-from app.core.config import settings
-from app.services.serv_constants import SPREADSHEETS_BODY
+from constants import G_FORMAT, G_VERSION_DRIVE, G_VERSION_SHEETS
+from core.config import settings
+from service_constants import SPREADSHEETS_BODY
 
 
 async def spreadsheets_create(wrapper_services: Aiogoogle,

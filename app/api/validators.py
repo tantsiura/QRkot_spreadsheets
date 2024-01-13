@@ -3,8 +3,8 @@ from http import HTTPStatus
 from fastapi import HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.crud.charity_project import charityproject_crud
-from app.models import CharityProject
+from crud.charity_project import charityproject_crud
+from models import CharityProject
 
 NAME_DUPLICATE = 'Проект с таким именем уже существует!'
 PROJECT_CLOSE = 'Закрытый проект нельзя редактировать!'
