@@ -4,8 +4,8 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from api.validators import (
-    check_amount, 
-    check_closed, 
+    check_amount,
+    check_closed,
     check_existence,
     check_name_duplicate
 )

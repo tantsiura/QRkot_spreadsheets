@@ -7,7 +7,7 @@ from core.google_client import get_service
 from core.user import current_superuser
 from crud.charity_project import charityproject_crud
 from services.google_api import (
-    set_user_permissions, 
+    set_user_permissions,
     spreadsheets_create,
     spreadsheets_update_value
 )
